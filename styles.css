@@ -1,0 +1,103 @@
+h1 {
+  color: #ff2400;
+  font-size: 28pt;
+  font-variant: small-caps;
+  text-shadow: 1px 1px 0 #000;
+}
+.header-image {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  object-position: top;
+}
+h2 {
+  font-size: 18pt;
+  margin-top: 30px;
+}
+h3 {
+  color: #ff2400;
+  font-size: 14pt;
+  margin-bottom: 12px;
+  margin-top: 24px;
+}
+body {
+  margin: 0;
+  font-family: Spectral, serif;
+  font-size: 11pt;
+}
+.container {
+  width: 60%;
+  margin: 30px auto;
+}
+section {
+  margin-bottom: 12px;
+}
+.portrait {
+  width: 250px;
+  height: 450px;
+  object-fit: cover;
+  margin-bottom: 10pt;
+  border: 1px solid black;
+}
+.pioneer-names {
+  font-size: large;
+  font-variant: small-caps;
+  text-shadow: 1px 1px 0 #000;
+}
+.image-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+ol,
+ul {
+  padding: 0;
+  list-style-position: inside;
+}
+.leading-artists {
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 3px solid black;
+}
+.leading-artist-names {
+  font-size: x-large;
+  font-variant: small-caps;
+  text-shadow: 1px 1px 0 #000;
+}
+.song-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.song-card {
+  width: 200px;
+  border: 1px solid black;
+  padding: 16px;
+  border-radius: 2px;
+  display: block;
+  text-decoration: none;
+  margin: 10px;
+  color: #706d6d;
+  font-weight: 800;
+}
+.song-cover {
+  width: 95%;
+  border: 1px solid black;
+  margin: auto;
+  display: block;
+}
+.song-name {
+  display: block;
+  margin-top: 10px;
+  color: black;
+}
+.artist-name {
+  display: block;
+  font-size: 14px;
+  font-variant: small-caps;
+}
+.song-card:hover {
+  color: black;
+  background-color: #e6d2b6;
+  border: 2px solid black;
+}
